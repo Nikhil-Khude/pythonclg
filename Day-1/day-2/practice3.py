@@ -28,3 +28,6 @@ print("replace 'nikhil'with 'nikil' :",text.replace("Nikhil", "nikil"))
 #9.check if the string starts or end with certain substring
 print("start with 'Hey' :",text.startswith("Hey"))
 print("end with 'Nikhil' :",text.endswith("Nikhil"))
+
+#10.split the string starts list by delimiter
+print("simple split",text.split())
