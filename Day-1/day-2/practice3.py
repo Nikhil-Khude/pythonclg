@@ -17,3 +17,8 @@ print("capitilize first letter :",text.title())
 
 #title case (capitilize each word)
 print("title case :",text.title())
+
+#count occurrences of substring
+print("letter o occurs :",text.count("i"),"time")
+
+#find the position of a substring (-1 if you not found)
