@@ -56,3 +56,16 @@ print(txt3.replace("a","n"))
 
 #16.sorted list of charter in the string
 print("sorted list of char :",sorted(txt3))
+
+
+#17.take input from users and find alphabetic char in the string and replace with new
+
+txt5="nikhilkhude"
+p1,sep,p2=txt5.partition("k")
+parts=[p1,sep+p2]
+print("spilt string :",parts)
+
+#funtions
+#length
+numbers=[1,2,3,4,5,6,7,8,9]
+print("no of item in list are :",len(numbers))
