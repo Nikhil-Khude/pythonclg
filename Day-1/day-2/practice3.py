@@ -31,3 +31,25 @@ print("end with 'Nikhil' :",text.endswith("Nikhil"))
 
 #10.split the string starts list by delimiter
 print("simple split",text.split())
+
+#11.join a list of strings with a seprator
+words=["hello","i", "am","nikhil"]
+print("join the word :"," ".join(words))
+
+#12.count the vowels in the string
+vowels="aeiou"
+vowel_count=sum(1 for char in text if char in vowels)
+print("number of vowels :",vowel_count)
+
+
+#13.using opreatres with strings
+txt="hello"
+txt1="hi"
+
+#reapeat the string 3 times and give a space in between
+print("reapeat string :",(txt+" ")*3)
+
+#15.split the string in 2 part and print
+txt3=input("enetr the word :")
+print(txt3.find("a")) 
+print(txt3.replace("a","n"))
