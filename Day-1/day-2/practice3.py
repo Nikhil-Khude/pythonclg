@@ -1,7 +1,5 @@
 text="Hey i am Nikhil"
-
 #comman string funtion
-
 #1.strip spaces from both end
 print("remove spaces :",text.strip())
 
@@ -24,4 +22,9 @@ print("letter o occurs :",text.count("i"),"time")
 print("position of Nikhil :",text.find("nikhil"))
 
 #8.replace a substring  with another substring
-print("replace 'nikhil'with 'nikil' :",text.replace("nikhil", "nikil"))
+print("replace 'nikhil'with 'nikil' :",text.replace("Nikhil", "nikil"))
+
+
+#9.check if the string starts or end with certain substring
+print("start with 'Hey' :",text.startswith("Hey"))
+print("end with 'Nikhil' :",text.endswith("Nikhil"))
