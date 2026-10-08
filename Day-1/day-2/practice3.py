@@ -14,3 +14,6 @@ print("upper case :",text.upper())
 
 #cspitilize first letter of each word
 print("capitilize first letter :",text.title())
+
+#title case (capitilize each word)
+print("title case :",text.title())
