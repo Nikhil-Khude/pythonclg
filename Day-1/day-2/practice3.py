@@ -9,3 +9,5 @@ print("remove spaces :",text.strip())
 #convert to lowercase
 print("lower case :",text.lower())
 
+#convert to uppercase
+print("upper case :",text.upper())
