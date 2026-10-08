@@ -53,3 +53,6 @@ print("reapeat string :",(txt+" ")*3)
 txt3=input("enetr the word :")
 print(txt3.find("a")) 
 print(txt3.replace("a","n"))
+
+#16.sorted list of charter in the string
+print("sorted list of char :",sorted(txt3))
