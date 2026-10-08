@@ -69,3 +69,10 @@ print("spilt string :",parts)
 #length
 numbers=[1,2,3,4,5,6,7,8,9]
 print("no of item in list are :",len(numbers))
+
+#sum
+print("sum of numbers :",sum(numbers))
+
+#sorting
+print("list in asending oredr :",sorted(numbers))
+print("list in desending order :",sorted(numbers ,reverse=True))
