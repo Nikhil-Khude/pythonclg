@@ -7,4 +7,4 @@ def get_max(*num):
             max_num=n
         return max_num
 print(get_max(3,12,32,9,21))
-print(get_max('arush','payal','zarina','yogesh'))
+print(get_max('Arush','Payal','Zarina','Yogesh'))
