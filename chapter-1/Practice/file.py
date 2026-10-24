@@ -19,3 +19,8 @@ f.close
 f=open("data.txt","w")
 f.writelines(["hello\n","python\n","MCA"])
 f.close
+
+f=open("data.txt","r")
+f.seek(2)
+print(f.read())
+f.close
