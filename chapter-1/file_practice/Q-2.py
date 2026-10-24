@@ -19,3 +19,15 @@ with open("Qtext1.txt","r")as f:
     else:
         print("Not Found")
 
+def find():
+    word="learning"
+    line_no=1
+    with open("Qtext1.txt","r")as f:
+        for line in f:
+            if word in line:
+                print(line_no)
+                return
+            line_no+=1
+    return -1
+print(find())
+
