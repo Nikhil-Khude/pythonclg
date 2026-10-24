@@ -11,3 +11,11 @@ with open("Qtext1.txt","r")as f:
     new_data=data.replace("java","python")
     print(new_data)
 
+word="learning"
+with open("Qtext1.txt","r")as f:
+    data=f.read()
+    if (data.find(word) !=-1):
+        print("found")
+    else:
+        print("Not Found")
+
