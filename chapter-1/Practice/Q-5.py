@@ -1,2 +1,5 @@
-name=input("enter your name:-")
-print(len(name))
+n=int(input("write Number:"))
+if n%2==0:
+    print("even")
+else:
+    print("odd")
