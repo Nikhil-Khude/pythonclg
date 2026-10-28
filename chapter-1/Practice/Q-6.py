@@ -10,3 +10,8 @@ elif b>c:
 else:
     print("c is greater number",c)
 
+
+
+num=int(input("enter number:"))
+if num%7==0:
+    print("its a multiple of 7:-",num)
